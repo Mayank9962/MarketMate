@@ -12,9 +12,13 @@ Voice‑enabled market intelligence dashboard built with Streamlit. Discover com
 - **One‑click PDF Export**: Branded, ready‑to‑share reports
 
 ### 🧱 Tech Stack
-- Python, Streamlit, Plotly
-- LangChain + Google Generative AI (Gemini)
-- SERPAPI (search), SpeechRecognition, pyttsx3
+**Core:** Python 3.x, Streamlit  
+**AI/ML & LLM:** LangChain, LangGraph, Google Generative AI (Gemini 2.0 Flash), Hugging Face Transformers, PyTorch, scikit-learn  
+**Data & Analytics:** Pandas, NumPy, yfinance  
+**Visualization:** Plotly, Folium  
+**Web Scraping & APIs:** SerpAPI, BeautifulSoup4, Requests  
+**Voice & Audio:** SpeechRecognition, pyttsx3  
+**Reports:** ReportLab, WeasyPrint
 
 ### 📦 Quick Start
 1) Clone and enter the project
@@ -88,7 +92,6 @@ marketmate_ai/
 ### 🤝 Contributing
 PRs welcome! Please open an issue to discuss substantial changes.
 
-### 📄 License
-MIT
+
 
 
